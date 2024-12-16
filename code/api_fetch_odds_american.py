@@ -71,7 +71,7 @@ if __name__ == "__main__":
     # Step 6: Save the combined DataFrame to a CSV file
     output_dir = "cache"
     os.makedirs(output_dir, exist_ok=True)
-    combined_file_path = os.path.join(output_dir, "combined_odds_decimal.csv")
+    combined_file_path = os.path.join(output_dir, "combined_odds_american.csv")
     all_odds_df.to_csv(combined_file_path, index=False)
 
     print(f"Combined odds data saved to: {combined_file_path}")
