@@ -1,0 +1,46 @@
+title,group,description,key,active,has_outrights
+NCAAF,American Football,US College Football,americanfootball_ncaaf,True,False
+NFL,American Football,US Football,americanfootball_nfl,True,False
+AFL,Aussie Rules,Aussie Football,aussierules_afl,True,False
+Basketball Euroleague,Basketball,Basketball Euroleague,basketball_euroleague,True,False
+NBA,Basketball,US Basketball,basketball_nba,True,False
+NCAAB,Basketball,US College Basketball,basketball_ncaab,True,False
+WNCAAB,Basketball,US Women's College Basketball,basketball_wncaab,True,False
+Boxing,Boxing,Boxing Bouts,boxing_boxing,True,False
+Big Bash,Cricket,Big Bash League,cricket_big_bash,True,False
+International Twenty20,Cricket,International Twenty20,cricket_international_t20,True,False
+One Day Internationals,Cricket,One Day Internationals,cricket_odi,True,False
+Test Matches,Cricket,International Test Matches,cricket_test_match,True,False
+NHL,Ice Hockey,US Ice Hockey,icehockey_nhl,True,False
+HockeyAllsvenskan,Ice Hockey,Swedish Hockey Allsvenskan,icehockey_sweden_allsvenskan,True,False
+SHL,Ice Hockey,Swedish Hockey League,icehockey_sweden_hockey_league,True,False
+MMA,Mixed Martial Arts,Mixed Martial Arts,mma_mixed_martial_arts,True,False
+NRL,Rugby League,Aussie Rugby League,rugbyleague_nrl,True,False
+Primera División - Argentina,Soccer,Argentine Primera División,soccer_argentina_primera_division,True,False
+A-League,Soccer,Aussie Soccer,soccer_australia_aleague,True,False
+Austrian Football Bundesliga,Soccer,Austrian Soccer,soccer_austria_bundesliga,True,False
+Belgium First Div,Soccer,Belgian First Division A,soccer_belgium_first_div,True,False
+Championship,Soccer,EFL Championship,soccer_efl_champ,True,False
+EFL Cup,Soccer,League Cup,soccer_england_efl_cup,True,False
+League 1,Soccer,EFL League 1,soccer_england_league1,True,False
+League 2,Soccer,EFL League 2 ,soccer_england_league2,True,False
+EPL,Soccer,English Premier League,soccer_epl,True,False
+FA Cup,Soccer,Football Association Challenge Cup,soccer_fa_cup,True,False
+Ligue 1 - France,Soccer,French Soccer,soccer_france_ligue_one,True,False
+Bundesliga - Germany,Soccer,German Soccer,soccer_germany_bundesliga,True,False
+Bundesliga 2 - Germany,Soccer,German Soccer,soccer_germany_bundesliga2,True,False
+3. Liga - Germany,Soccer,German Soccer,soccer_germany_liga3,True,False
+Super League - Greece,Soccer,Greek Soccer,soccer_greece_super_league,True,False
+Serie A - Italy,Soccer,Italian Soccer,soccer_italy_serie_a,True,False
+Serie B - Italy,Soccer,Italian Soccer,soccer_italy_serie_b,True,False
+League of Ireland,Soccer,Airtricity League Premier Division,soccer_league_of_ireland,True,False
+Dutch Eredivisie,Soccer,Dutch Soccer,soccer_netherlands_eredivisie,True,False
+Primeira Liga - Portugal,Soccer,Portugese Soccer,soccer_portugal_primeira_liga,True,False
+La Liga - Spain,Soccer,Spanish Soccer,soccer_spain_la_liga,True,False
+La Liga 2 - Spain,Soccer,Spanish Soccer,soccer_spain_segunda_division,True,False
+Premiership - Scotland,Soccer,Scottish Premiership,soccer_spl,True,False
+Swiss Superleague,Soccer,Swiss Soccer,soccer_switzerland_superleague,True,False
+Turkey Super League,Soccer,Turkish Soccer,soccer_turkey_super_league,True,False
+UEFA Champions League,Soccer,European Champions League,soccer_uefa_champs_league,True,False
+UEFA Europa Conference League,Soccer,UEFA Europa Conference League,soccer_uefa_europa_conference_league,True,False
+UEFA Europa League,Soccer,European Europa League,soccer_uefa_europa_league,True,False
