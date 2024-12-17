@@ -82,16 +82,18 @@ def display_odds_and_chart(market):
 
 
 # Load data
-@st.cache_data
-def load_data():
-    return pd.read_csv('./cache/filtered_odds.csv')
+#@st.cache_data
+#def load_data():
+   # return pd.read_csv('./cache/filtered_odds.csv')
 
 # Load the data
-df = load_data()
+#df = load_data()
+
+df = pd.read_csv('./cache/filtered_odds.csv')
 
 # Title
-st.title("Sports Betting Odds Viewer")
-st.write("Select a sport and view detailed stats for each game!")
+st.title("Sports Betting Odds APP")
+st.write("Select a Sport & Game and Compare the Odds from Different Bookmakers!")
 
 # Step 1: Sport Selection
 unique_sports = df['sport_title'].unique()
@@ -122,14 +124,14 @@ else:
 
     # Display Spread, Total, and H2H Tabs
     bookmakers = ["DraftKings", "BetUS", "FanDuel", "BetMGM"]
-    tabs = st.tabs(["Spread Odds", "Total Odds", "H2H Odds"])
+    tabs = st.tabs(["Moneyline","Spread Odds", "Over/Under" ])
 
     with tabs[0]:
-        display_odds_and_chart("spreads")
+        display_odds_and_chart("h2h")
 
     with tabs[1]:
-        display_odds_and_chart("totals")
+        display_odds_and_chart("spreads")
 
     with tabs[2]:
-        display_odds_and_chart("h2h")
+        display_odds_and_chart("totals")
 
