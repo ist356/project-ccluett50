@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 import os
-from needed_functions import american_to_decimal
+from project_code._0_needed_functions import american_to_decimal
 
 # Step 1: Read the CSV file
 def read_csv(file_path:str) -> pd.DataFrame:

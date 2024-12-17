@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from needed_functions import calculate_implied_probability
+from project_code._0_needed_functions import calculate_implied_probability
 
 # Function to display odds and charts
 def display_odds_and_chart(market):

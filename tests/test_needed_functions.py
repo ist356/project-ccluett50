@@ -1,4 +1,4 @@
-from project_code.needed_functions import american_to_decimal, calculate_implied_probability
+from project_code._0_needed_functions import american_to_decimal, calculate_implied_probability
 import pytest
 test_cases_american = [
     {'american_odds': 200, 'expected': 3.0},
