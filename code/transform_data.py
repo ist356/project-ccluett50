@@ -68,12 +68,23 @@ filtered_df = flattened_df[flattened_df['bookmaker'].isin(bookmakers)]
 
 # Step 7: Drop unnecessary columns
 filtered_df = filtered_df.drop(columns=['sport_key', 'commence_time'])
+filtered_df['year'] = filtered_df['year'].astype(str).str.replace(',', '')
+filtered_df['time'] = filtered_df['time'].apply(lambda x: x.strftime('%H:%M'))
 
 # Display results
 print("List of unique bookmakers:")
 print(filtered_df['bookmaker'].unique())
 print("\nFiltered DataFrame:")
 print(filtered_df)
+
+# create a new column for decimal odds and convert the odds to decimal from american odds
+def american_to_decimal(american_odds):
+    if american_odds > 0:
+        return round((american_odds / 100) + 1, 2)
+    else:
+        return round((100 / abs(american_odds)) + 1, 2)
+    
+filtered_df['decimal_odds'] = filtered_df['price'].apply(american_to_decimal)
 
 # Step 8: Save the DataFrame to a CSV file
 output_dir = "cache"
