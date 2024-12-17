@@ -1,16 +1,9 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from streamlit_functions import display_odds_and_chart, calculate_implied_probability
+from needed_functions import calculate_implied_probability
 
 # Function to calculate implied probability from American odds
-
-def calculate_implied_probability(price):
-    if price > 0:
-        decimal_odds = (price / 100) + 1
-    else:
-        decimal_odds = (100 / abs(price)) + 1
-    return round((1 / decimal_odds) * 100, 1)
 
 # Function to display odds and charts
 def display_odds_and_chart(market):
@@ -89,7 +82,7 @@ def display_odds_and_chart(market):
 
         st.pyplot(fig)
 
-        
+
 # Load data
 @st.cache_data
 def load_data():
