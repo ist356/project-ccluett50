@@ -86,6 +86,9 @@ def american_to_decimal(american_odds):
     
 filtered_df['decimal_odds'] = filtered_df['price'].apply(american_to_decimal)
 
+#make sure the spreads are float to 1 decimal if not empty
+filtered_df['point'] = filtered_df['point'].astype(float).round(1)
+
 # Step 8: Save the DataFrame to a CSV file
 output_dir = "cache"
 output_file = "filtered_odds.csv"

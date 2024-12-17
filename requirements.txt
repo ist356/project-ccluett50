@@ -2,5 +2,4 @@ requests
 pandas
 numpy
 streamlit
-os
-ZoneInfo
+matplotlib
