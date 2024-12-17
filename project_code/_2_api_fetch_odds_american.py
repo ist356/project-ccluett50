@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     # Step 4: Set API parameters
     params = {
-        "apiKey": "8d53f6317401301f0e6d342ab72fba59",
+        "apiKey": "", # Put your API key here
         "regions": "us",
         "markets": "h2h,spreads,totals",
         "oddsFormat": "american"

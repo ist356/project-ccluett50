@@ -18,7 +18,7 @@ def get_sports(API_KEY:str, BASE_URL:str)->pd.DataFrame:
     return df
 
 if __name__ == "__main__":
-    API_KEY = "8d53f6317401301f0e6d342ab72fba59"
+    API_KEY = "" #put API KEY Here
     BASE_URL = "https://api.the-odds-api.com/v4"
 
     sports = get_sports(API_KEY=API_KEY, BASE_URL=BASE_URL)
