@@ -26,3 +26,8 @@ NOTE*****So because this is an API you need a key, signing up is easy on odds-ap
 
 ### Other things you need to know
 The code should be in a format that is readily called. Depending on time of year I would have to change the market codes to include summer American sport markets such as MLB but chose not to at the current moment because its winter. This could be a way to improve if I were make it better in the future. Everything should be good if you keep the csv files I downloaded from the API and just run them as your own csv files, or you can run everything with the API key. Note, I used AI to assist in code and specifically in making the test functions so there should be no errors there. I was having difficulties with the tests at first but they all run perfectly now. 
+
+#my key: 8d53f631
+is: 7401301f
+these: 0e6d342a
+no spaces (in order): b72fba59
