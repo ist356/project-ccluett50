@@ -1,10 +1,10 @@
-def american_to_decimal(american_odds):
+def american_to_decimal(american_odds:int) -> float:
         if american_odds > 0:
             return round((american_odds / 100) + 1, 2)
         else:
             return round((100 / abs(american_odds)) + 1, 2)
         
-def calculate_implied_probability(price):
+def calculate_implied_probability(price:int) -> float:
     if price > 0:
         decimal_odds = (price / 100) + 1
     else:
