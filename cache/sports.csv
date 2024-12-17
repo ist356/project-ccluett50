@@ -8,6 +8,7 @@ MLB World Series Winner,Baseball,World Series Winner 2025,baseball_mlb_world_ser
 Basketball Euroleague,Basketball,Basketball Euroleague,basketball_euroleague,True,False
 NBA,Basketball,US Basketball,basketball_nba,True,False
 NBA Championship Winner,Basketball,Championship Winner 2024/2025,basketball_nba_championship_winner,True,True
+NBL,Basketball,AU National Basketball League,basketball_nbl,True,False
 NCAAB,Basketball,US College Basketball,basketball_ncaab,True,False
 NCAAB Championship Winner,Basketball,US College Basketball Championship Winner,basketball_ncaab_championship_winner,True,True
 WNCAAB,Basketball,US Women's College Basketball,basketball_wncaab,True,False
@@ -26,7 +27,6 @@ HockeyAllsvenskan,Ice Hockey,Swedish Hockey Allsvenskan,icehockey_sweden_allsven
 SHL,Ice Hockey,Swedish Hockey League,icehockey_sweden_hockey_league,True,False
 MMA,Mixed Martial Arts,Mixed Martial Arts,mma_mixed_martial_arts,True,False
 NRL,Rugby League,Aussie Rugby League,rugbyleague_nrl,True,False
-Primera División - Argentina,Soccer,Argentine Primera División,soccer_argentina_primera_division,True,False
 A-League,Soccer,Aussie Soccer,soccer_australia_aleague,True,False
 Austrian Football Bundesliga,Soccer,Austrian Soccer,soccer_austria_bundesliga,True,False
 Belgium First Div,Soccer,Belgian First Division A,soccer_belgium_first_div,True,False
