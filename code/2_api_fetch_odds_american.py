@@ -44,9 +44,7 @@ if __name__ == "__main__":
         "oddsFormat": "american"
     }
 
-    headers = {
-        "Content-Type": "application/json"
-    }
+    headers = {"Content-Type": "application/json"}
 
     # Step 5: Fetch odds for each sport and append DataFrames together
     all_odds_df = pd.DataFrame()
