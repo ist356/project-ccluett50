@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import os
 
-def fetch_odds(sport, params, headers) -> pd.DataFrame:
+def fetch_odds(sport:str, params:dict, headers:dict) -> pd.DataFrame:
     """
     Fetch odds data from the Odds API and save it to a CSV file.
 
@@ -13,24 +13,13 @@ def fetch_odds(sport, params, headers) -> pd.DataFrame:
         markets (str): Comma-separated markets, e.g., 'h2h,spreads,totals'.
         output_dir (str): Directory to save the fetched data.
     """
-    # Base URL for the Odds API
     BASE_URL = "https://api.the-odds-api.com/v4/sports"
-
-    # Define headers and parameters for the API request
-    
-
-    
-
-    # Build the full API URL dynamically
     url = f"{BASE_URL}/{sport}/odds/"
-
-    # Make the API request
 
     response = requests.get(url, headers=headers, params=params)
     response.raise_for_status()
     data = response.json()
     df = pd.json_normalize(data)
-
     return df
 
 
@@ -49,7 +38,7 @@ if __name__ == "__main__":
 
     # Step 4: Set API parameters
     params = {
-        #"apiKey": "8d53f6317401301f0e6d342ab72fba59",
+        "apiKey": "8d53f6317401301f0e6d342ab72fba59",
         "regions": "us",
         "markets": "h2h,spreads,totals",
         "oddsFormat": "american"

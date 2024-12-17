@@ -3,8 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from needed_functions import calculate_implied_probability
 
-# Function to calculate implied probability from American odds
-
 # Function to display odds and charts
 def display_odds_and_chart(market):
     cols = st.columns(4)  # Creates 4 equal columns
@@ -135,6 +133,3 @@ else:
     with tabs[2]:
         display_odds_and_chart("h2h")
 
-# Footer
-st.write("---")
-st.write("Powered by Streamlit")
