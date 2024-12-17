@@ -51,7 +51,7 @@ if __name__ == "__main__":
     params = {
         #"apiKey": "8d53f6317401301f0e6d342ab72fba59",
         "regions": "us",
-        "markets": "h2h,spreads,totals"
+        "markets": "h2h,spreads,totals",
     }
 
     headers = {
