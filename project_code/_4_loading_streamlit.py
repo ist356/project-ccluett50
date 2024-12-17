@@ -135,3 +135,9 @@ else:
     with tabs[2]:
         display_odds_and_chart("totals")
 
+#footer
+st.write("---")
+st.write("Data Source: Odds API")
+st.write("Developed by Connor Cluett with AI Assistance")
+st.write("Please Gamble Responsibly and contact 1-800-GAMBLER if you have a gambling problem that you would like to address. Stay Safe and Have Fun!!")
+
