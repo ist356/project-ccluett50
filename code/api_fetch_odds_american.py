@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import os
 
-def fetch_odds(sport, params, headers):
+def fetch_odds(sport, params, headers) -> pd.DataFrame:
     """
     Fetch odds data from the Odds API and save it to a CSV file.
 
